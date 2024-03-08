@@ -1,0 +1,93 @@
+main {
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 140px 80px;
+}
+main .main-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 25px;
+}
+main .main-text h2 {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 2.2400000095px;
+}
+main .main-images {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
+}
+main .main-images .main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 67vh;
+  background-color: #F2F8F8;
+}
+main .main-images .main-box p {
+  padding: 40px;
+}
+main .main-images .main-box img {
+  width: 80%;
+}
+
+@media (max-width: 448px) {
+  main {
+    gap: 30px;
+    padding: 40px 20px;
+  }
+  main .main-text {
+    gap: 10px;
+  }
+  main .main-text p {
+    font-size: 8px;
+  }
+  main .main-text h2 {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  main .main-images {
+    gap: 15px;
+  }
+  main .main-images .main-box {
+    height: 57vh;
+  }
+  main .main-images p {
+    padding: 10px;
+    font-size: 8px;
+  }
+}
+@media (min-width: 449px) and (max-width: 720px) {
+  main {
+    gap: 50px;
+    padding: 60px 45px;
+  }
+  main .main-text {
+    gap: 20px;
+  }
+  main .main-text h2 {
+    font-size: 23px;
+    line-height: 25px;
+  }
+  main .main-images {
+    gap: 25px;
+  }
+  main .main-images .main-box {
+    height: 65vh;
+  }
+  main .main-images p {
+    padding: 20px;
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=main.css.map */

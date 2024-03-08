@@ -1,0 +1,93 @@
+article {
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 140px 80px;
+}
+article .article-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 25px;
+}
+article .article-text h2 {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 2.2400000095px;
+}
+article .article-images {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
+}
+article .article-images .article-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 67vh;
+  background-color: #F2F8F8;
+}
+article .article-images .article-box p {
+  padding: 40px;
+}
+article .article-images .article-box img {
+  width: 80%;
+}
+
+@media (max-width: 448px) {
+  article {
+    gap: 30px;
+    padding: 40px 20px;
+  }
+  article .article-text {
+    gap: 10px;
+  }
+  article .article-text p {
+    font-size: 8px;
+  }
+  article .article-text h2 {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  article .article-images {
+    gap: 15px;
+  }
+  article .article-images .article-box {
+    height: 57vh;
+  }
+  article .article-images p {
+    padding: 10px;
+    font-size: 8px;
+  }
+}
+@media (min-width: 449px) and (max-width: 720px) {
+  article {
+    gap: 50px;
+    padding: 60px 45px;
+  }
+  article .article-text {
+    gap: 20px;
+  }
+  article .article-text h2 {
+    font-size: 23px;
+    line-height: 25px;
+  }
+  article .article-images {
+    gap: 25px;
+  }
+  article .article-images .main-box {
+    height: 65vh;
+  }
+  article .article-images p {
+    padding: 20px;
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=article.css.map */

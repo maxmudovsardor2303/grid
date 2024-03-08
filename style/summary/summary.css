@@ -1,0 +1,90 @@
+summary {
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 140px 80px;
+}
+summary .summary-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 25px;
+}
+summary .summary-text h2 {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 2.2400000095px;
+}
+summary .summary-boxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
+}
+summary .summary-boxes .summary-box {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px;
+  background-color: #F2F8F8;
+}
+
+@media (max-width: 448px) {
+  summary {
+    gap: 30px;
+    padding: 40px 20px;
+  }
+  summary .summary-text {
+    gap: 10px;
+  }
+  summary .summary-text p {
+    font-size: 8px;
+  }
+  summary .summary-text h2 {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  summary .summary-boxes {
+    gap: 10px;
+  }
+  summary .summary-boxes .summary-box {
+    width: 200px;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+  }
+  summary .summary-boxes .summary-box p {
+    font-size: 8px;
+  }
+  summary .summary-boxes .summary-box span {
+    font-size: 12px;
+  }
+}
+@media (min-width: 449px) and (max-width: 720px) {
+  article {
+    gap: 50px;
+    padding: 60px 45px;
+  }
+  article .article-text {
+    gap: 20px;
+  }
+  article .article-text h2 {
+    font-size: 23px;
+    line-height: 25px;
+  }
+  article .article-images {
+    gap: 25px;
+  }
+  article .article-images .main-box {
+    height: 65vh;
+  }
+  article .article-images p {
+    padding: 20px;
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=summary.css.map */
